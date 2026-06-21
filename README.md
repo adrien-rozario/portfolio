@@ -1,5 +1,5 @@
 # Personal Portfolio 🌹
-<u>https://adrienthefragrance.github.io/Portfolio/</u>
+<u>[https://adrienthefragrance.github.io/Portfolio/](https://adrien-rozario.github.io/portfolio/)</u>
 
 ### Website Preview
 <p align="center"> 
