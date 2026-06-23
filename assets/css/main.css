@@ -3288,7 +3288,7 @@ h1, h2, h3, h4, h5, h6 {
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
-					padding: 4em 4em 2em 4em ;
+					padding: 4em 2em 2em 5em ;
 				}
 
 			}
@@ -4178,4 +4178,26 @@ p, li {
 	text-transform: uppercase;
 	letter-spacing: 0.12em;
 	color: #ffffff;
+}
+
+.about-column {
+	padding-left: 3em;
+}
+
+.icons {
+	font-size: 1.25em;
+}
+
+.icons li a {
+	width: 2.75em;
+	height: 2.75em;
+	line-height: 2.75em;
+	font-size: 1.25em;
+	border-radius: 50%;
+	transition: all 0.2s ease;
+}
+
+.icons li a:hover {
+	transform: translateY(-2px);
+	box-shadow: 0 0 15px rgba(255,255,255,.25);
 }

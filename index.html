@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Personal Portfolio - Adrien Rozario</title>
+		<title>Adrien Rozario - Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -9,6 +9,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+		
 	</head>
 
 	<body class="is-preload">
@@ -54,15 +55,17 @@
 							</ul>
 						</div>
 
-						<div class="col-7 col-12-medium">
+						<div class="col-7 col-12-medium about-column">
 							<br><br>
 							<h2>About Me</h2>
 							<p>Hi! I'm an Information Science major at the University of Maryland with a minor in Data Science. I've always been curious about finding ways to turn complex information into something that people can better understand, which is what drew me to a field that brings together data, systems, and the people who interact with them.</p>
+							<br>
 							<ul class="actions">
-								<li><a href="files/Master_Resume.pdf" class="button">Resume</a></li>
+								<li><a href="files/resume.pdf" class="button">Resume</a></li>
 							</ul>
 						</div>
-							<div class="bio-section"> <br><br>
+							<div class="bio-section"> 
+								<br><br>
 								<h3>What I’ve Explored</h3>
 								<p>Over the past few years, I've explored that through projects in analytics, machine learning, databases, web applications, and user research. Working on problems in healthcare, business, and consumer spaces has taught me that good solutions come from understanding both the information itself and the needs of the stakeholders involved.</p>
 							</div>
@@ -219,7 +222,7 @@
 							<h4>Technica Ambassador</h4>
 							<p class="timeline-meta">Jul 2024 – Dec 2024 · Hybrid</p>
 							<ul>
-								<li>Promoted Technica events and initiatives through campus outreach, helping increase student engagement and participation in the world’s largest hackathon for women and non-binary individuals.</li>
+								<li>Promoted Technica events and initiatives through campus outreach, helping increase student engagement and participation in the hackathon supporting women and non-binary individuals.</li>
 								<li>Fostered an inclusive and welcoming environment by encouraging students from underrepresented backgrounds in tech to explore opportunities in computing, innovation, and community-building.</li>
 								<li>Collaborated with fellow ambassadors and organizers to strengthen campus awareness through event promotion, peer outreach, and student engagement efforts.</li>
 							</ul>
@@ -294,7 +297,7 @@
 								<li>Collaboratively developed a full-stack cloud-based health tracking dashboard that enables users to monitor sleep, exercise, nutrition, mood, and wellness metrics.</li>
 								<li>Implemented dynamic dashboard filtering, goal tracking, nutrition analytics, and file management features using React, TypeScript, and Express.</li>
 								<li>Designed backend APIs with Node.js and Express, integrating Azure Cosmos DB and Azure Blob Storage to support scalable data storage and file upload workflows.</li>
-								<li>Integrated Supabase Authentication for account management and configured GitHub Actions CI/CD pipelines to automate Azure App Service deployment updates.</li>
+								<li>Incorporated Supabase Authentication for account management and configured GitHub Actions CI/CD pipelines to automate Azure App Service deployment updates.</li>
 							</ul>
 							<p><strong>Skills:</strong> Web Development, Backend Development, React, TypeScript, Node.js, Express, Azure, Supabase, CI/CD</p>
 							<div class="project-links">
@@ -419,8 +422,8 @@
 							</ul>
 							<p><strong>Skills:</strong> Data Collection, Data Cleaning, Statistical Analysis, Research Methods</p>
 							<div class="project-links">
-								<a href="files/screen-time-presentation.pdf" class="button small">Presentation</a>
-								<a href="files/screen-time-report.pdf" class="button small">Report</a>
+								<a href="files/screentime-presentation.pdf" class="button small">Presentation</a>
+								<a href="files/screentime-report.pdf" class="button small">Report</a>
 							</div>
 						</div>
 
@@ -645,6 +648,33 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+
+		<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/jquery.scrollex.min.js"></script>
+<script src="assets/js/jquery.scrolly.min.js"></script>
+<script src="assets/js/browser.min.js"></script>
+<script src="assets/js/breakpoints.min.js"></script>
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script>
+window.addEventListener('DOMContentLoaded', function () {
+	document.querySelectorAll('a').forEach(link => {
+		const href = link.getAttribute('href');
+
+		if (
+			href &&
+			!href.startsWith('#') &&
+			!href.startsWith('mailto:')
+		) {
+			link.setAttribute('target', '_blank');
+			link.setAttribute('rel', 'noopener noreferrer');
+		}
+	});
+});
+</script>
+
+</body>
 
 	</body>
 </html>
