@@ -4,7 +4,7 @@
 ### Website Preview
 <p align="center"> 
   <kbd>
-    <a href="" target="_blank"><img src="images/preview.jpg">
+    <a href="" target="_blank"><img src="images/preview.png">
   </a>
   </kbd>
 </p>
